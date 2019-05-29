@@ -1,0 +1,15 @@
+server: 
+  port: 9000
+spring: 
+  application: 
+    name: config-server
+  cloud: 
+    config:
+      server: 
+        git: 
+          uri: ${user.dir}\boceWorkspace\config-server\src\main\resources\configs
+managment: 
+  endpoints: 
+    web: 
+      exposure: 
+        include: "*"                           
