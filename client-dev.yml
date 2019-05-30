@@ -1,3 +1,5 @@
+name: gaohan
+age: 30
 eureka:
   client:
     service-url:
